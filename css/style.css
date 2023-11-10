@@ -1,0 +1,10 @@
+table{
+    margin-top: 15px;
+    border: 2px solid rgb(107, 10, 10);
+}
+
+th, td{
+    padding: 10px 20px;
+    border: 2px solid rgb(177, 146, 32); 
+    text-align: center;
+}
