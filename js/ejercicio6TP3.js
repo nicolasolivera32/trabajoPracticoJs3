@@ -14,7 +14,7 @@ Output: 58
 
 const ladoA = parseFloat(prompt("Ingrese el valor del lado A"));
 const ladoB = parseFloat(prompt("Ingrese el valor del lado B"));
-p = 0;
+let p = 0;
 
 function perimetro(lado1, lado2) {
   p = 2 * (lado1 + lado2);
