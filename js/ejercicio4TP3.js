@@ -12,7 +12,7 @@ function numero(ingreseNumero){
     }
 }
 
-valor = parseInt(prompt("ingrese un número"))
+valor = parseFloat(prompt("ingrese un número"))
 if(valor >0 && Number.isInteger(valor)){
     numero(valor);
 }else{
